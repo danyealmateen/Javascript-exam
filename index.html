@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Hubballi&family=Inconsolata:wght@300&family=Josefin+Sans:wght@100&family=Kanit:wght@100&family=Lobster&family=Roboto+Serif:ital,wght@1,300&family=Roboto:wght@100&family=Rubik+Glitch&family=Rubik+Wet+Paint&family=Shizuru&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="jsForm.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <div id="errorOutput"></div>
+        
+
+       <input id="inputName" for="name" type="text" placeholder="Name" required>
+       <input id="inputNumber" for="number" type="number" placeholder="Age" required>
+       <input id="inputPassword" for="password" type="password" placeholder="Password" required>
+      
+
+       <button id="submitBtn" type="button">Submit</button>
+       <button id="bdayBtn" type="button" onclick="birthday();">B-day</button>
+       <button id="greetBtn" type="button" onclick="greetAll();">Greet</button>
+    
+       
+       <p id="paraHello"></p>
+      
+       <p id="messages"></p>
+       
+       <p id="demo"></p>
+      
+       <p id="greetMessages"></p>
+       
+       
+    </form>
+   
+</body>
+</html>

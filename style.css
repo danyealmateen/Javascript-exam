@@ -1,0 +1,79 @@
+body {
+    background-image: url(/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#form {
+    display: inline-block;
+    background-color: rgb(46, 1, 47);
+    font-size: 2rem;
+    width: 30%;
+    margin: 10rem;
+    border: 10px dotted rgb(162, 154, 116);
+}
+
+#inputName,
+#inputNumber,
+#inputPassword {
+    background-color: rgb(117, 96, 116);
+    color: rgb(186, 172, 172);
+    font-size: 2rem;
+    display: block;
+    font-family: 'Rubik Glitch', cursive;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 32px;
+    border-radius: 5px;
+}
+
+#submitBtn,
+#bdayBtn,
+#greetBtn {
+    font-size: 1.5rem;
+    background-color: rgb(169, 45, 0);
+    margin: 32px;
+    border: 7px solid black;
+    border-radius: 5px;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+
+#errorOutput,
+#paraHello,
+#demo,
+#messages,
+#greetMessages {
+    margin: 32px;
+    display: block;
+    color: rgb(162, 154, 116);
+    font-family: 'Rubik Glitch', cursive;
+}
+
+img {
+    display: inline;
+    float: right;
+    margin: -55px;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 35px;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+/* <form id="form">
+        <div id="errorOutput"></div>
+       <input id="inputName" for="name" type="text" placeholder="Name" required>
+       <input id="inputNumber" for="number" type="number" placeholder="Age" required>
+       <input id="inputPassword" for="password" type="password" placeholder="Password" required>
+
+       <button id="submitBtn" type="button">Submit</button>
+       <button id="bdayBtn" type="button" onclick="birthday();">B-day</button>
+       <button id="greetBtn" type="button" onclick="greetAll();">Greet</button>
+       
+       <p id="paraHello"></p>
+       <p id="messages"></p>
+       <p id="demo"></p>
+       <p id="greetMessages"></p> */
